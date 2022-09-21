@@ -5,3 +5,4 @@
 # Caching
 .ipynb_checkpoints/
 __pycache__
+wandb
