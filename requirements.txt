@@ -4,7 +4,7 @@ dgl==0.5.3
 pytorch==1.7.1
 # -c conda-forge
 numpy==1.19.5
-networkx==2.5
+networkx==2.8.6
 jupyter==1.0.0
 requests==2.25.1
 matplotlib==3.3.2
