@@ -1,0 +1,30 @@
+
+program: tuning.py
+method: grid
+metric:
+  name: loss
+  goal: minimize
+parameters:
+  dim_embedding:
+    values: [100, 200, 300, 400, 500]
+  hidden_dim:
+    values: [5, 10, 20]
+  num_hid_layers:
+    values: [1, 2, 3, 4]
+  dropout:
+    values: [0.0, 0.1, 0.2, 0.4]
+  lr:
+    values: [0.01, 0.005, 0.001, 0.0005]
+  optimizer:
+    values: ["adam", "adamw"]
+  number_classes:
+    values: [1]
+  prob_threshold:
+    values: [0.5]
+  tolerance:
+    values: [1e-4]
+  patience:
+    values: [1000]
+  number_epochs:
+    values: [1e10]
+  
